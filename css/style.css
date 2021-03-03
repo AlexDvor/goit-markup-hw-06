@@ -593,6 +593,10 @@ p {
   margin-bottom: 20px;
 }
 
+.form-sub {
+  display: flex;
+}
+
 .input-sign-up {
   display: flex;
   width: 358px;
@@ -617,21 +621,22 @@ p {
   padding: 10px 29px;
 }
 
-/* .btn-subscription p {
-  font-size: 14px;
+.btn-subscription p {
+  font-size: 16px;
   font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: var(--tertiary-color-text);
   margin: 0;
-} */
+}
 
-.form-sub {
-  display: flex;
+.icon-sub {
+  margin-left: 10px;
 }
 
 /* .input-sign-up[placeholder='E-mail'] {
   color: rgba(255, 255, 255, 0.6);
+  
 } */
 
 /* ----------PORTFOLIO PAGE----------*/
