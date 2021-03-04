@@ -634,10 +634,9 @@ p {
   margin-left: 10px;
 }
 
-/* .input-sign-up[placeholder='E-mail'] {
+::placeholder {
   color: rgba(255, 255, 255, 0.6);
-  
-} */
+}
 
 /* ----------PORTFOLIO PAGE----------*/
 
