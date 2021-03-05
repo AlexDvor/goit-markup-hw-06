@@ -507,15 +507,27 @@
         <form name="form-sing" class="form-sing">
           <p>Оставьте свои данные, мы вам перезвоним</p>
           <div class="input-form">
-            <input type="text" />
+            <label for="text">Имя</label>
+            <input type="text" name="text" />
           </div>
 
           <div class="input-form">
-            <input type="tel" />
+            <label for="text">Телефон</label>
+            <input type="tel" name="tel" />
           </div>
 
           <div class="input-form">
-            <input type="email" />
+            <label for="text">Почта</label>
+            <input type="email" name="email" />
+          </div>
+
+          <div class="input-form">
+            <label for="comment">Комментарий</label>
+            <textarea
+              name="comment"
+              rows="10"
+              placeholder="Введите текст"
+            ></textarea>
           </div>
         </form>
       </div>
