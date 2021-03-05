@@ -504,18 +504,18 @@
             <use href="./images/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
-        <form name="form-sing" class="form-sing">
+        <form class="form-sing" name="form-sing">
           <p>Оставьте свои данные, мы вам перезвоним</p>
           <div class="input-form">
             <label for="username">Имя</label>
-            <input
-              class="input-field"
-              type="text"
-              name="username"
-              id="username"
-            />
-            <div class="input-icon">
-              <svg width="18px" height="18px">
+            <div class="input-wrapper">
+              <input
+                class="input-field"
+                type="text"
+                name="username"
+                id="username"
+              />
+              <svg class="input-icon" width="18px" height="18px">
                 <use href="./images/symbol-defs.svg#person-black"></use>
               </svg>
             </div>
@@ -523,12 +523,22 @@
 
           <div class="input-form">
             <label for="tel">Телефон</label>
-            <input class="input-field" type="tel" name="tel" id="tel" />
+            <div class="input-wrapper">
+              <input class="input-field" type="tel" name="tel" id="tel" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#phone-black"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="input-form">
             <label for="email">Почта</label>
-            <input class="input-field" type="email" name="email" id="email" />
+            <div class="input-wrapper">
+              <input class="input-field" type="email" name="email" id="email" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#email-black"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="input-form">

@@ -909,12 +909,13 @@ p {
   justify-content: center;
 }
 
-.input-form {
+.input-wrapper {
   position: relative;
 }
 
 .input-icon {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 56%;
+  left: 12px;
+  transform: translateY(-50%);
 }
