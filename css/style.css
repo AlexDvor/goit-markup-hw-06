@@ -908,3 +908,13 @@ p {
   display: flex;
   justify-content: center;
 }
+
+.input-form {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
