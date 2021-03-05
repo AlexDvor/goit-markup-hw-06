@@ -921,7 +921,7 @@ p {
 
 .input-icon {
   position: absolute;
-  top: 55%;
+  top: 54%;
   left: 12px;
-  transform: translateY(-50%);
+  transform: translateY(-54%);
 }
