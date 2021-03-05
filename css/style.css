@@ -830,7 +830,7 @@ p {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
+  /* letter-spacing: 0.03em; */
   margin-bottom: 12px;
 }
 
@@ -842,7 +842,7 @@ p {
   color: #757575;
 }
 
-.input-form:nth-child(-n + 2) {
+.input-form:nth-child(-n + 4) {
   margin-bottom: 10px;
 }
 
