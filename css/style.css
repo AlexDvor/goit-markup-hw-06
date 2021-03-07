@@ -959,6 +959,10 @@ p {
   fill: #212121;
 }
 
+.checkbox-input:focus {
+  cursor: pointer;
+}
+
 .checkbox-input:checked ~ .check-box-icon {
   background-image: url(/images/icon\ check.svg);
   fill: var(--accent-color);
