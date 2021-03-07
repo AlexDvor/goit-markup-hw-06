@@ -956,9 +956,10 @@ p {
 
 .check-box-icon {
   display: flex;
-  fill: red;
+  fill: #212121;
 }
 
 .checkbox-input:checked ~ .check-box-icon {
-  fill: yellow;
+  background-image: url(/images/icon\ check.svg);
+  fill: var(--accent-color);
 }
