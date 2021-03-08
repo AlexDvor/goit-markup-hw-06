@@ -976,6 +976,10 @@ p {
   cursor: pointer;
 }
 
+.checkbox-input:focus + .check-box-icon {
+  fill: var(--accent-color);
+}
+
 .checkbox-input:checked ~ .check-box-icon {
   background-image: url(../images/icon\ check.svg);
   fill: var(--accent-color);
