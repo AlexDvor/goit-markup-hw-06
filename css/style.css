@@ -557,10 +557,7 @@ p {
 .list-footer-link {
   display: flex;
   align-items: baseline;
-}
-
-.box-link {
-  margin-left: 70px;
+  justify-content: space-between;
 }
 
 .social-list-footer:not(:last-child) {
@@ -584,10 +581,6 @@ p {
 .icon-footer:focus {
   cursor: pointer;
   background-color: var(--accent-color);
-}
-
-.subscription {
-  margin-left: 93px;
 }
 
 .subscription > p {
