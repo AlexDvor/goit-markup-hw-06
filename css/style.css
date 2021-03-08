@@ -105,6 +105,10 @@ p {
   padding: 32px 0px;
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .nav-item::after {
   content: '';
   position: absolute;
